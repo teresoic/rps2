@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dagmdfwnrepac"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wct6s"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="AgentAnimator" type="Node2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AgentAnimator"]
+root_node = NodePath("../../Camera2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="AgentAnimator"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_wct6s")
