@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s65xotl58sc8"
-valid=false
+uid="uid://dc6amamtxa0i7"
+path="res://.godot/imported/scissors1.png-ddacfb91cad0da13ded37289aea14a5a.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Assets/Sprites/scissors2.png"
+source_file="res://Assets/Sprites/scissors1.png"
+dest_files=["res://.godot/imported/scissors1.png-ddacfb91cad0da13ded37289aea14a5a.ctex"]
 
 [params]
 
@@ -27,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

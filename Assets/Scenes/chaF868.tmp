@@ -13,6 +13,9 @@ script = ExtResource("1_26vwu")
 
 [node name="AgentAnimator" type="Node2D" parent="."]
 
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AgentAnimator"]
+root_node = NodePath("../../Camera2D")
+
 [node name="Sprite2D" type="Sprite2D" parent="AgentAnimator"]
 position = Vector2(24, -39)
 scale = Vector2(1.02, 0.993333)

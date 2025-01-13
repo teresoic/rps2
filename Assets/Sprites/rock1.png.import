@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drj0n3e5cyxd2"
-valid=false
+uid="uid://dreu5e6ucfwxy"
+path="res://.godot/imported/rock1.png-466d786780d9dda6638c0b8bc5fc88a1.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Assets/Sprites/paper.png"
+source_file="res://Assets/Sprites/rock1.png"
+dest_files=["res://.godot/imported/rock1.png-466d786780d9dda6638c0b8bc5fc88a1.ctex"]
 
 [params]
 
